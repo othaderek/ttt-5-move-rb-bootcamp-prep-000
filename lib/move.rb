@@ -15,6 +15,5 @@ def input_to_index(i)
 end
 
 def move(board, index, player= "X")
-  
-  return board[index]
+  board = board[index]
 end
