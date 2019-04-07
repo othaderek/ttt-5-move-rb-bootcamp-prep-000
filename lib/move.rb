@@ -9,11 +9,13 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(i)
-  number = gets.chomp
-   = number.to_i 
+  i = gets.chomp
+  num = i.to_i 
+  index = num - 1
   
 end
 
-def move()
+def move(board, index, player= "X")
   
+  board = board[]
 end
