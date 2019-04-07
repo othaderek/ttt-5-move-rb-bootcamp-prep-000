@@ -10,7 +10,7 @@ end
 
 def input_to_index(i)
   i = gets.chomp
-  num = i.to_i 
+  num = i.to_i
   index = num - 1
   
 end
